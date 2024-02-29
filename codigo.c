@@ -18,7 +18,7 @@ int main( int argc, char *argv[] )
       printf("Too many arguments supplied.\n");
       return(-2);
    }
-   d = atoi(argv[1]);
+   d = atoi(argv[1])
    printf("argv[1] in intger=%d\n",d);
    
    switch(d) {
